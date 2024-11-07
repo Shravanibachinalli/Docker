@@ -14,3 +14,6 @@ services:
   mongo:
     container_name: knote-mongo
     image: mongo
+  httpd:
+    container_name: knote-httpd
+    image: httpd
